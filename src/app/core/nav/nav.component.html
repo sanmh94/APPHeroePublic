@@ -1,0 +1,22 @@
+<div class="center-text" *ngIf="isLoading; else loadedInfo">
+  <mat-progress-spinner mode="indeterminate" color="accent"></mat-progress-spinner>
+  <p id="loading-text">Loading App...</p>
+</div>
+
+<ng-template #loadedInfo>
+  <div *ngIf="isInError; else tabsInfo" class="center-text">
+    <span id="errorMessage">ERROR</span>
+  </div>
+
+  <ng-template #tabsInfo>
+    <mat-tab-group id="mat-tab-group" [(selectedIndex)]="activeLinkIndex">
+      <mat-tab *ngFor="let tab of navLinks; let i = index" [disabled]="true"> <!-- Aquí se deshabilitan las pestañas -->
+        <ng-template mat-tab-label >
+          <mat-icon class="tab-icon">{{tab.icon}}</mat-icon>
+          <span id="label-text" title="{{tab.label}}">{{tab.label}}</span>
+        </ng-template>
+        <app-dashboard id="app-dasboard" [selectedPanelIndex]="tab.index" [actionPanelInfo]="actionPanelInfo"></app-dashboard>
+      </mat-tab>
+    </mat-tab-group>
+  </ng-template>
+</ng-template>

@@ -1,0 +1,13 @@
+.vertical-form {
+  display: grid;
+}
+
+.card{
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+#create-edit-tittle{
+  margin-left: 10px;
+  display: inline-block;
+}

@@ -1,0 +1,4 @@
+<div [ngSwitch]="selectedPanel" class="pages-class">
+  <app-create-edit *ngSwitchCase="1" [actionPanelInfo]="actionPanelInfo"></app-create-edit>
+  <app-filter-list *ngSwitchDefault></app-filter-list>
+</div>

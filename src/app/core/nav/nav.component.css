@@ -1,0 +1,43 @@
+.tab-icon {
+  margin-right: 8px;
+}
+
+#label-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#mat-tab-group{
+  height: 100%;
+}
+
+/* Absolute Center Spinner */
+.center-text {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#loading-text{
+  display: grid;
+  width: 150px;
+}
+
+#errorMessage{
+  font-size: 50px;
+  font-weight: lighter;
+  color: grey;
+}
+
+#app-dasboard{
+  display: block;
+  height: 100%;
+  width: 100%;
+}

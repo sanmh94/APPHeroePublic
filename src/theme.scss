@@ -1,0 +1,11 @@
+@use '@angular/material' as mat;
+@use '@angular/material-experimental' as matx;
+
+$theme: matx.define-theme(());
+
+@include mat.core();
+@include matx.color-variants-back-compat($theme);
+
+:root {
+  @include mat.all-component-themes($theme);
+}

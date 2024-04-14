@@ -1,0 +1,164 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "spider-Man",
+      "power": "Spider-like agility, proportional strength of a spider, spider-sense",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 7
+    },
+    {
+      "id": 2,
+      "name": "batman",
+      "power": "Detective skills, martial arts expertise, advanced technology",
+      "publisher": "DC",
+      "active": true,
+      "films": 11
+    },
+    {
+      "id": 3,
+      "name": "tron Man",
+      "power": "High-tech armor, genius inventor, combat expertise",
+      "publisher": "Marvel",
+      "active": false,
+      "films": 3
+    },
+    {
+      "id": 4,
+      "name": "wonder Woman",
+      "power": "Superhuman strength, flight, combat skills",
+      "publisher": "DC",
+      "active": true,
+      "films": 3
+    },
+    {
+      "id": 5,
+      "name": "captain America",
+      "power": "Super soldier serum, shield mastery, peak human physical condition",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 11
+    },
+    {
+      "id": 6,
+      "name": "superman",
+      "power": "Superhuman strength, flight, heat vision, freeze breath",
+      "publisher": "DC",
+      "active": true,
+      "films": 9
+    },
+    {
+      "id": 7,
+      "name": "thor",
+      "power": "God of Thunder, superhuman strength, control over lightning, wielder of Mjolnir",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 7
+    },
+    {
+      "id": 8,
+      "name": "The Flash",
+      "power": "Superhuman speed, time travel, accelerated healing",
+      "publisher": "DC",
+      "active": true,
+      "films": 1
+    },
+    {
+      "id": 9,
+      "name": "Hulk",
+      "power": "Limitless strength, rapid healing, invulnerability",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 7
+    },
+    {
+      "id": 10,
+      "name": "Green Lantern",
+      "power": "Power ring constructs, flight, energy manipulation",
+      "publisher": "DC",
+      "active": true,
+      "films": 1
+    },
+    {
+      "id": 11,
+      "name": "Black Widow",
+      "power": "Master spy, expert martial artist, skilled markswoman",
+      "publisher": "Marvel",
+      "active": false,
+      "films": 8
+    },
+    {
+      "id": 12,
+      "name": "Aquaman",
+      "power": "Superhuman strength, telepathic control over marine life, underwater adaptation",
+      "publisher": "DC",
+      "active": true,
+      "films": 3
+    },
+    {
+      "id": 13,
+      "name": "Wolverine",
+      "power": "Regenerative healing factor, adamantium skeleton and claws, enhanced senses",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 6
+    },
+    {
+      "id": 14,
+      "name": "Green Arrow",
+      "power": "Master archer, peak human physical condition, skilled martial artist",
+      "publisher": "DC",
+      "active": true,
+      "films": 1
+    },
+    {
+      "id": 15,
+      "name": "Doctor Strange",
+      "power": "Mastery of mystic arts, reality manipulation, time travel",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 2
+    },
+    {
+      "id": 16,
+      "name": "Cyborg",
+      "power": "Cybernetic enhancements, superhuman strength, technological interface",
+      "publisher": "DC",
+      "active": true,
+      "films": 3
+    },
+    {
+      "id": 17,
+      "name": "Black Panther",
+      "power": "Enhanced strength, agility, senses, and reflexes, Vibranium suit",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 4
+    },
+    {
+      "id": 18,
+      "name": "Shazam",
+      "power": "Wisdom of Solomon, strength of Hercules, stamina of Atlas, power of Zeus, courage of Achilles, speed of Mercury",
+      "publisher": "DC",
+      "active": true,
+      "films": 1
+    },
+    {
+      "id": 19,
+      "name": "Storm",
+      "power": "Weather manipulation, flight, control over atmospheric pressure",
+      "publisher": "Marvel",
+      "active": true,
+      "films": 2
+    },
+    {
+      "id": 20,
+      "name": "Martian Manhunter",
+      "power": "Shape-shifting, telepathy, flight, superhuman strength",
+      "publisher": "DC",
+      "active": true,
+      "films": 2
+    }
+  ]
+}
